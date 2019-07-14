@@ -1,0 +1,8 @@
+/**index.wxss**/
+@import '/style/style.wxss';
+.pageStyle{
+  color: yellow;
+}
+.important{
+  color: aqua !important;
+  }

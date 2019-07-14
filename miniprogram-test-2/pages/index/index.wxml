@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+<!-- !important>行内样式>页面样式>全局样式 -->
+<view style='font-size:50rpx'>样式基本使用</view>
+<view  style='color:red;'>行内样式</view>
+<view class='pageStyle'>页面样式</view>
+<view  class='wholeStyle'>全局样式</view>
+<text>-----------------分割线------------------</text>
+<view style='font-size:50rpx'>样式权重大小比对</view>
+<!-- !important权重无穷大,行内样式(style)权重1000,#id权重100,.class权重10，element权重1 -->
+<view  style='color:red;' class='pageStyle'>行内样式与页面样式同时出现</view>
+<view style='color:fuchsia;' class='important'>权重无穷大与行内样式同时出现</view>
+<!-- 引用样式目录下的样式 -->
+<text>-----------------分割线--------------------</text>
+<view style='font-size:50rpx'>引用自建目录下得样式</view>
+<view class='box'>直接引用自建目录样式</view>
+<view class='content'>通过全局样式页面引用自建目录样式</view>
+</view>

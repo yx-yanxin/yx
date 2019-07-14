@@ -1,0 +1,4 @@
+.content{
+  color: green;
+  font-size: 30rpx;
+}
